@@ -1,0 +1,61 @@
+{
+  "name": "fse-mock-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "ingest": "ts-node src/rag/ingestion.ts",
+    "retrieve": "ts-node src/rag/test-retrieval.ts",
+    "agent": "ts-node src/agent/run-agent.ts",
+    "eval:generate-dataset": "ts-node src/eval/generateDataset.ts",
+    "eval:run": "ts-node src/eval/run.ts",
+    "eval:grade": "ts-node src/eval/grade.ts",
+    "test": "jest --runInBand --forceExit"
+  },
+  "jest": {
+    "preset": "ts-jest/presets/js-with-ts",
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/__tests__/**/*.test.ts"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!@faker-js/faker)"
+    ],
+    "globals": {
+      "ts-jest": {
+        "diagnostics": false,
+        "tsconfig": {
+          "module": "commonjs"
+        }
+      }
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@faker-js/faker": "^10.4.0",
+    "@langchain/google-genai": "^2.2.0",
+    "@langchain/textsplitters": "^1.0.1",
+    "ajv": "^8.20.0",
+    "ajv-draft-04": "^1.0.0",
+    "chromadb": "^3.5.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "langchain": "^1.5.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.9.1",
+    "jest": "^30.4.2",
+    "nodemon": "^3.1.14",
+    "ts-jest": "^29.4.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}

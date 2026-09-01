@@ -1,0 +1,313 @@
+[
+  {
+    "id": "structured-1",
+    "category": "structured",
+    "question": "Qual è stata l'ultima misurazione di Hemoglobin per il paziente Shawn Ratke?",
+    "expectedTool": "query_fhir_api",
+    "expectedAnswer": "14.9 g/dL",
+    "patientName": "Shawn Ratke"
+  },
+  {
+    "id": "structured-2",
+    "category": "structured",
+    "question": "Qual è stata l'ultima misurazione di Blood Pressure per il paziente Veronica Schmidt?",
+    "expectedTool": "query_fhir_api",
+    "expectedAnswer": "111.1 mmHg",
+    "patientName": "Veronica Schmidt"
+  },
+  {
+    "id": "structured-3",
+    "category": "structured",
+    "question": "Qual è stata l'ultima misurazione di Total Cholesterol per il paziente Sterling Dare?",
+    "expectedTool": "query_fhir_api",
+    "expectedAnswer": "234.5 mg/dL",
+    "patientName": "Sterling Dare"
+  },
+  {
+    "id": "structured-4",
+    "category": "structured",
+    "question": "Qual è stata l'ultima misurazione di Blood Glucose per il paziente Freddie Carter?",
+    "expectedTool": "query_fhir_api",
+    "expectedAnswer": "112.3 mg/dL",
+    "patientName": "Freddie Carter"
+  },
+  {
+    "id": "structured-5",
+    "category": "structured",
+    "question": "Qual è stata l'ultima misurazione di Blood Pressure per il paziente Tricia Dooley?",
+    "expectedTool": "query_fhir_api",
+    "expectedAnswer": "100.6 mmHg",
+    "patientName": "Tricia Dooley"
+  },
+  {
+    "id": "structured-6",
+    "category": "structured",
+    "question": "Qual è stata l'ultima misurazione di Blood Pressure per il paziente Selena Renner-Kuphal?",
+    "expectedTool": "query_fhir_api",
+    "expectedAnswer": "142.3 mmHg",
+    "patientName": "Selena Renner-Kuphal"
+  },
+  {
+    "id": "structured-7",
+    "category": "structured",
+    "question": "Qual è stata l'ultima misurazione di Blood Urea Nitrogen per il paziente Patti Bruen?",
+    "expectedTool": "query_fhir_api",
+    "expectedAnswer": "16.5 mg/dL",
+    "patientName": "Patti Bruen"
+  },
+  {
+    "id": "structured-8",
+    "category": "structured",
+    "question": "Qual è stata l'ultima misurazione di Blood Pressure per il paziente Scarlett Pfeffer?",
+    "expectedTool": "query_fhir_api",
+    "expectedAnswer": "118.8 mmHg",
+    "patientName": "Scarlett Pfeffer"
+  },
+  {
+    "id": "structured-9",
+    "category": "structured",
+    "question": "Qual è stata l'ultima misurazione di Blood Glucose per il paziente Claudine Ferry?",
+    "expectedTool": "query_fhir_api",
+    "expectedAnswer": "91.8 mg/dL",
+    "patientName": "Claudine Ferry"
+  },
+  {
+    "id": "structured-10",
+    "category": "structured",
+    "question": "Qual è stata l'ultima misurazione di Hemoglobin per il paziente Audreanne Abbott?",
+    "expectedTool": "query_fhir_api",
+    "expectedAnswer": "15.8 g/dL",
+    "patientName": "Audreanne Abbott"
+  },
+  {
+    "id": "structured-11",
+    "category": "structured",
+    "question": "Qual è stata l'ultima misurazione di Blood Pressure per il paziente Josie Beatty-Hudson?",
+    "expectedTool": "query_fhir_api",
+    "expectedAnswer": "129.5 mmHg",
+    "patientName": "Josie Beatty-Hudson"
+  },
+  {
+    "id": "structured-12",
+    "category": "structured",
+    "question": "Qual è stata l'ultima misurazione di Hemoglobin per il paziente Lora Macejkovic?",
+    "expectedTool": "query_fhir_api",
+    "expectedAnswer": "14.1 g/dL",
+    "patientName": "Lora Macejkovic"
+  },
+  {
+    "id": "structured-13",
+    "category": "structured",
+    "question": "Qual è stata l'ultima misurazione di Blood Pressure per il paziente Elna Crist?",
+    "expectedTool": "query_fhir_api",
+    "expectedAnswer": "110.1 mmHg",
+    "patientName": "Elna Crist"
+  },
+  {
+    "id": "structured-14",
+    "category": "structured",
+    "question": "Qual è stata l'ultima misurazione di Blood Glucose per il paziente Judith Rodriguez-Hamill?",
+    "expectedTool": "query_fhir_api",
+    "expectedAnswer": "88.9 mg/dL",
+    "patientName": "Judith Rodriguez-Hamill"
+  },
+  {
+    "id": "structured-15",
+    "category": "structured",
+    "question": "Qual è stata l'ultima misurazione di Hemoglobin per il paziente Rudy Wehner?",
+    "expectedTool": "query_fhir_api",
+    "expectedAnswer": "12.5 g/dL",
+    "patientName": "Rudy Wehner"
+  },
+  {
+    "id": "narrative-1",
+    "category": "narrative",
+    "question": "Qual era il motivo principale della visita del paziente Shawn Ratke secondo il referto \"Discharge Summary\" del 2024-02-01?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "lower limb edema and reduced exercise tolerance.",
+    "patientName": "Shawn Ratke"
+  },
+  {
+    "id": "narrative-2",
+    "category": "narrative",
+    "question": "Qual è la storia clinica del paziente Veronica Schmidt secondo il referto \"Cardiology Visit Note\" del 2024-12-20?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "Previous myocardial infarction (5 years ago), on aspirin and statin.",
+    "patientName": "Veronica Schmidt"
+  },
+  {
+    "id": "narrative-3",
+    "category": "narrative",
+    "question": "Quali sono stati i risultati dell'esame obiettivo del paziente Sterling Dare secondo il referto \"Cardiology Visit Note\" del 2025-06-19?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "Blood pressure 138/77 mmHg, heart rate 71 bpm, SpO2 99%.",
+    "patientName": "Sterling Dare"
+  },
+  {
+    "id": "narrative-4",
+    "category": "narrative",
+    "question": "Qual è il piano di trattamento per il paziente Sterling Dare secondo il referto \"General Practitioner Report\" del 2024-08-14?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "Echocardiography requested to assess cardiac function.",
+    "patientName": "Sterling Dare"
+  },
+  {
+    "id": "narrative-5",
+    "category": "narrative",
+    "question": "Qual era il motivo principale della visita del paziente Freddie Carter secondo il referto \"Discharge Summary\" del 2024-10-23?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "lower limb edema and reduced exercise tolerance.",
+    "patientName": "Freddie Carter"
+  },
+  {
+    "id": "narrative-6",
+    "category": "narrative",
+    "question": "Qual è la storia clinica del paziente Tricia Dooley secondo il referto \"Cardiology Visit Note\" del 2024-01-23?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "Arterial hypertension under ACE inhibitor therapy.",
+    "patientName": "Tricia Dooley"
+  },
+  {
+    "id": "narrative-7",
+    "category": "narrative",
+    "question": "Quali sono stati i risultati dell'esame obiettivo del paziente Selena Renner-Kuphal secondo il referto \"Anamnesis\" del 2025-06-29?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "Blood pressure 134/99 mmHg, heart rate 70 bpm, SpO2 95%.",
+    "patientName": "Selena Renner-Kuphal"
+  },
+  {
+    "id": "narrative-8",
+    "category": "narrative",
+    "question": "Qual è il piano di trattamento per il paziente Selena Renner-Kuphal secondo il referto \"Discharge Summary\" del 2024-05-19?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "Echocardiography requested to assess cardiac function.",
+    "patientName": "Selena Renner-Kuphal"
+  },
+  {
+    "id": "narrative-9",
+    "category": "narrative",
+    "question": "Qual era il motivo principale della visita del paziente Patti Bruen secondo il referto \"General Practitioner Report\" del 2024-09-14?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "recurrent headaches and hypertension.",
+    "patientName": "Patti Bruen"
+  },
+  {
+    "id": "narrative-10",
+    "category": "narrative",
+    "question": "Qual è la storia clinica del paziente Scarlett Pfeffer secondo il referto \"Anamnesis\" del 2026-04-10?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "Previous myocardial infarction (5 years ago), on aspirin and statin.",
+    "patientName": "Scarlett Pfeffer"
+  },
+  {
+    "id": "narrative-11",
+    "category": "narrative",
+    "question": "Quali sono stati i risultati dell'esame obiettivo del paziente Claudine Ferry secondo il referto \"Discharge Summary\" del 2024-06-30?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "Blood pressure 157/79 mmHg, heart rate 72 bpm, SpO2 96%.",
+    "patientName": "Claudine Ferry"
+  },
+  {
+    "id": "narrative-12",
+    "category": "narrative",
+    "question": "Qual è il piano di trattamento per il paziente Audreanne Abbott secondo il referto \"General Practitioner Report\" del 2023-09-17?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "Adjusted antihypertensive therapy; follow-up in 4 weeks.",
+    "patientName": "Audreanne Abbott"
+  },
+  {
+    "id": "narrative-13",
+    "category": "narrative",
+    "question": "Qual era il motivo principale della visita del paziente Audreanne Abbott secondo il referto \"Cardiology Visit Note\" del 2024-08-10?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "recurrent headaches and hypertension.",
+    "patientName": "Audreanne Abbott"
+  },
+  {
+    "id": "narrative-14",
+    "category": "narrative",
+    "question": "Qual è la storia clinica del paziente Josie Beatty-Hudson secondo il referto \"Discharge Summary\" del 2024-05-09?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "Previous myocardial infarction (5 years ago), on aspirin and statin.",
+    "patientName": "Josie Beatty-Hudson"
+  },
+  {
+    "id": "narrative-15",
+    "category": "narrative",
+    "question": "Quali sono stati i risultati dell'esame obiettivo del paziente Josie Beatty-Hudson secondo il referto \"Specialist Referral\" del 2023-12-14?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "Blood pressure 140/76 mmHg, heart rate 96 bpm, SpO2 100%.",
+    "patientName": "Josie Beatty-Hudson"
+  },
+  {
+    "id": "narrative-16",
+    "category": "narrative",
+    "question": "Qual è il piano di trattamento per il paziente Lora Macejkovic secondo il referto \"Anamnesis\" del 2024-04-21?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "Adjusted antihypertensive therapy; follow-up in 4 weeks.",
+    "patientName": "Lora Macejkovic"
+  },
+  {
+    "id": "narrative-17",
+    "category": "narrative",
+    "question": "Qual era il motivo principale della visita del paziente Lora Macejkovic secondo il referto \"Discharge Summary\" del 2024-06-09?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "lower limb edema and reduced exercise tolerance.",
+    "patientName": "Lora Macejkovic"
+  },
+  {
+    "id": "narrative-18",
+    "category": "narrative",
+    "question": "Qual è la storia clinica del paziente Elna Crist secondo il referto \"Discharge Summary\" del 2026-05-11?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "No significant prior medical history.",
+    "patientName": "Elna Crist"
+  },
+  {
+    "id": "narrative-19",
+    "category": "narrative",
+    "question": "Quali sono stati i risultati dell'esame obiettivo del paziente Elna Crist secondo il referto \"Specialist Referral\" del 2025-12-05?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "Blood pressure 146/80 mmHg, heart rate 67 bpm, SpO2 97%.",
+    "patientName": "Elna Crist"
+  },
+  {
+    "id": "narrative-20",
+    "category": "narrative",
+    "question": "Qual è il piano di trattamento per il paziente Judith Rodriguez-Hamill secondo il referto \"Cardiology Visit Note\" del 2026-03-22?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "Echocardiography requested to assess cardiac function.",
+    "patientName": "Judith Rodriguez-Hamill"
+  },
+  {
+    "id": "narrative-21",
+    "category": "narrative",
+    "question": "Qual era il motivo principale della visita del paziente Rudy Wehner secondo il referto \"Anamnesis\" del 2024-10-12?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "lower limb edema and reduced exercise tolerance.",
+    "patientName": "Rudy Wehner"
+  },
+  {
+    "id": "narrative-22",
+    "category": "narrative",
+    "question": "Qual è la storia clinica del paziente Rudy Wehner secondo il referto \"Cardiology Visit Note\" del 2024-11-05?",
+    "expectedTool": "query_vector_db",
+    "expectedAnswer": "Previous myocardial infarction (5 years ago), on aspirin and statin.",
+    "patientName": "Rudy Wehner"
+  },
+  {
+    "id": "edge-not-found",
+    "category": "edge_case",
+    "question": "Qual è la pressione del paziente Zzyzx Nonexistent?",
+    "expectedTool": null,
+    "expectedAnswer": "No patient found"
+  },
+  {
+    "id": "edge-no-data",
+    "category": "edge_case",
+    "question": "Qual è stata l'ultima misurazione di Blood Urea Nitrogen per il paziente Shawn Ratke?",
+    "expectedTool": "query_fhir_api",
+    "expectedAnswer": "No observations found",
+    "patientName": "Shawn Ratke"
+  }
+]
